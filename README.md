@@ -14,3 +14,19 @@
         "start": "nodemon index.js"<br>
     }, <br>
     실행 명령어 - npx nodemon index.js
+
+## DB 연결
+### mysql2 라이브러리 설치
+ - npm install mysql2
+
+### MySQL DBMS 연결 설정
+ - {host : 'localhost',
+    user : 'jsuser',
+    password : 'pwjs1234',
+    database : 'jsdb'}
+
+### rest api
+ - 상품 조회 : app.get()
+ - 상품 등록 : app.post()
+ - 상품 수정 : app.put()
+ - 상품 삭제 : app.delete()
