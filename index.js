@@ -41,6 +41,7 @@ app.get('/products', (req, res)=>{
 });
 
 // json 요청이 오면 본문(body) 파싱을 위한 미들웨어
+// 미들웨어 - 요청과 응답 사이에서 처리하는 함수 - express.json()
 app.use(express.json());
 
 // 상품 등록 처리
